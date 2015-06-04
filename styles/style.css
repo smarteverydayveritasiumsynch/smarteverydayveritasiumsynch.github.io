@@ -2,14 +2,13 @@
 
 @import url(https://necolas.github.io/normalize.css/3.0.2/normalize.css);
 
-/*common rules*/
-
 .clearfix:after {
 	content:" ";
 	display:block;
 	clear:both;
 	height: 0px;
 }
+
 .relative {
 	position: relative;
 }
@@ -35,6 +34,26 @@ body {
 .videos {
 	padding-top: 1em;
 	padding-bottom: 5em;
+}
+
+.wat {
+	font-weight: bold;
+	cursor: pointer;
+	border-bottom: 1px dotted;
+}
+
+.wat:hover:before {
+	content: "Yes, videos start at the beginning, but it`s ok! Don`t touch anything";
+	display: inline-block;
+	position: absolute;
+	font-size: 0.7em;
+	font-weight: normal;
+	width: 873%;
+	top: -50px;
+	left: -60px;
+	background: #EFEFEF;
+	border-radius: 7px;
+	padding: 0.3em;
 }
 
 iframe, object {
