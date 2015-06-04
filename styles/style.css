@@ -1,0 +1,83 @@
+/* ! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+@import url(https://necolas.github.io/normalize.css/3.0.2/normalize.css);
+
+/*common rules*/
+
+.clearfix:after {
+	content:" ";
+	display:block;
+	clear:both;
+	height: 0px;
+}
+.relative {
+	position: relative;
+}
+
+.center {
+	text-align: center;
+}
+
+body {
+	font-family: Oswald, sans-serif;
+	font-size: 100%;
+	padding-top: 2em;
+	color: #333;
+	text-shadow: 0px 1px 0px #FFF;
+	background: url(../img/bg.png);
+}
+
+.wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.videos {
+	padding-top: 1em;
+	padding-bottom: 5em;
+}
+
+iframe, object {
+	width: 50%;
+	float: left;
+	height: 27em;
+}
+
+embed {
+	width: 100%;
+	height: 100%;
+}
+
+
+button {
+	display: block;
+	width: 25%;
+	height: 58px;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 auto;
+	background: rgba(255, 165, 0, 0.74);
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	vertical-align: middle;
+	outline: none;
+}
+
+button:hover {
+	background: orange;
+}
+
+button:active,
+button:focus {
+	outline: none;
+}
+
+button:active {
+	  border-top: 3px solid rgba(128, 128, 128, 0.64);
+}
